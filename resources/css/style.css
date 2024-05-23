@@ -1,0 +1,36 @@
+/* Universal */
+
+/* @font-face {
+    font-family: 'WorkSans';
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+} */
+
+html, body, main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grid Component */
+
+/* Testimonials */
+
+/* Footer */
+
+.attribution {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+.attribution p {
+    margin: 0.25rem;
+}
+
+/* Media Queries */
+
