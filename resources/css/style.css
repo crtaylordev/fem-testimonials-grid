@@ -51,6 +51,32 @@ html, body, main {
 
 /** Grid Layout **/
 
+.grid {
+    display: grid;
+    grid-auto-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+}
+
+#daniel {
+    grid-area: 1 / span 2;
+}
+
+#jonathan {
+    grid-area: 1 / 3;
+}
+
+#kira {
+    grid-area: 1 / span 2 / 4;
+}
+
+#jeanette {
+    grid-area: 2 / 1;
+}
+
+#patrick {
+    grid-area: 2 / span 2;
+}
+
 /** Grid Articles **/
 
 .article {
