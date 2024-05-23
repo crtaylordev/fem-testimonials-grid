@@ -49,7 +49,44 @@ html, body, main {
 
 /* Grid Component */
 
-/* Testimonials */
+/** Grid Layout **/
+
+/** Grid Articles **/
+
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 1rem 1rem 1rem 0 hsl(0, 0%, 81%);
+}
+
+.head-text,
+.body-text {
+    font-size: 0.813rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.head-img {
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.body,
+.body-text {
+    margin-top: 1rem;
+}
+
+.body-highlight {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 
 /* Footer */
 
