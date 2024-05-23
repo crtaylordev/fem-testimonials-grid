@@ -1,17 +1,50 @@
 /* Universal */
 
-/* @font-face {
-    font-family: 'WorkSans';
-    src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
-    font-style: normal;
-} */
-
 html, body, main {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* Colors */
+
+.bgcolor-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bgcolor-gray {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.bgcolor-slate {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.bgcolor-dark {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.bgcolor-accent {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.txtcolor-dark {
+    color: hsl(219, 29%, 14%);
+}
+
+.txtcolor-halfdark {
+    color: hsla(219, 29%, 14%, 50%);
+}
+
+.txtcolor-light {
+    color: hsl(210, 46%, 95%);
+}
+
+.txtcolor-halflight {
+    color: hsla(210, 46%, 95%, 50%);
 }
 
 /* Grid Component */
