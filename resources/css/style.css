@@ -52,9 +52,10 @@ html, body, main {
 /** Grid Layout **/
 
 .grid {
+    width: 80%;
     display: grid;
-    grid-auto-columns: repeat(4, 1fr);
-    grid-auto-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 #daniel {
@@ -66,7 +67,7 @@ html, body, main {
 }
 
 #kira {
-    grid-area: 1 / span 2 / 4;
+    grid-area: 1 / 4 / span 2;
 }
 
 #jeanette {
@@ -90,7 +91,7 @@ html, body, main {
 
 .head-text,
 .body-text {
-    font-size: 0.813rem;
+    font-size: 0.85rem;
 }
 
 .heading {
@@ -104,13 +105,19 @@ html, body, main {
     margin-right: 0.75rem;
 }
 
-.body,
+.article-body,
 .body-text {
     margin-top: 1rem;
 }
 
 .body-highlight {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.body-text {
+    padding-top: 1rem;
     font-weight: 600;
 }
 
