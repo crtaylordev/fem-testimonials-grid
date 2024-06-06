@@ -163,3 +163,39 @@ a:hover {
 
 /* Media Queries */
 
+@media screen and (max-width: 1200px) {
+    .grid {
+        width: 85%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 0.65fr);
+    }
+
+    #kira {
+        grid-area: 3 / span 3;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+
+    .grid {
+    display: block;
+}
+
+}
+
+@media screen and (max-width: 460px) {
+    
+    .grid {
+        width: 90%;
+    }
+
+    .article {
+        padding: 1.6rem;
+    }
+
+    #daniel {
+        background-position: top right 1rem;
+    }
+}
+
